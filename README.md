@@ -2,7 +2,9 @@
 The README for the UDP Encryption Server project is a comprehensive guide to a Python-based client-server application designed for CSC 442 Network Programming. It combines UDP sockets with AES-256 encryption to handle text encryption and decryption across multiple clients.
 
 Project Overview
+
 This project implements a secure UDP-based server that encrypts and decrypts messages using AES-256 in CBC mode. It's ideal for exploring network programming and cryptography, allowing clients to send plain text for encryption or base64-encoded ciphertexts for decryption. The server acts like a "cryptographic bouncer," managing secrets with efficiency and a touch of whimsy, supporting multiple concurrent connections via threading.
+
 Features
 
 AES-256 encryption/decryption with PKCS7 padding and base64 encoding for safe transmission.
